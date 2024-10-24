@@ -440,8 +440,6 @@ li {
 a {
   text-decoration: none;
 }
-.container-f {
-}
 .soc-foot {
   font-weight: 500;
   font-size: 16px;
@@ -457,8 +455,6 @@ a {
 .icon-li-foot {
   width: 40px;
   height: 40px;
-}
-.icon-foot {
 }
 .href-foot-soc:hover {
   background-color: #31d0aa;
@@ -634,7 +630,7 @@ a {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-icon-input:focus {
+.input-window:focus + .svg-icon-input {
   fill: #4d5ae5;
 }
 .form-mod-window-comm {
@@ -682,10 +678,10 @@ a {
 }
 .span-icon-privacy {
 }
-.form-sub-foot input[type="checkbox"]:checked + span {
+.visually-hidden:checked + .label-privacy-window > .span-label-privacy {
   background-color: #404bbf;
-  border: none;
   fill: #f4f4fd;
+  border: none;
 }
 .ref-privacy-mod {
   color: #4d5ae5;
